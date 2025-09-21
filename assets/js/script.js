@@ -50,6 +50,22 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
   }
+// Hamburger menu responsive avec animation
+const hamburger = document.querySelector('.hamburger');
+const navLinks = document.querySelector('.nav-links');
+
+if (hamburger && navLinks) {
+  hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+
+  // Fermer le menu au clic sur un lien (pratique sur mobile)
+  navLinks.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove('active');
+    });
+  });
+}
 
   // -------------------------------
   // Smooth scroll pour la navbar
@@ -70,4 +86,6 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
   }
+  
 });
+
