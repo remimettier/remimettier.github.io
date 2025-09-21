@@ -1,4 +1,4 @@
-# 🌐 Portfolio de Rémi Mettier
+# 🌐 Portfolio de Remi Mettier
 
 Bienvenue sur mon portfolio !  
 Ce site présente mes projets, mes compétences et mon parcours. Il a pour objectif de montrer mon travail et de faciliter le contact avec moi.
@@ -40,7 +40,7 @@ Ce site présente mes projets, mes compétences et mon parcours. Il a pour objec
 
 Tu peux me contacter via :  
 - 📧 Email : [remi.mettier@gmail.com](mailto:remi.mettier@gmail.com)  
-- 🔗 LinkedIn : [Rémi Mettier](https://www.linkedin.com/in/remi-mettier-b2381a347/)  
+- 🔗 LinkedIn : [Remi Mettier](https://www.linkedin.com/in/remi-mettier-b2381a347/)  
 - 🐙 GitHub : [remimettier](https://github.com/remimettier)  
 
 
