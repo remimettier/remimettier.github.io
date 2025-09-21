@@ -3,7 +3,7 @@
 Bienvenue sur mon portfolio !  
 Ce site présente mes projets, mes compétences et mon parcours. Il a pour objectif de montrer mon travail et de faciliter le contact avec moi.
 
----
+
 
 ## 🚀 Aperçu
 
@@ -11,14 +11,13 @@ Ce site présente mes projets, mes compétences et mon parcours. Il a pour objec
 - Compétences techniques en développement web
 - Design responsive (adapté aux mobiles, tablettes et ordinateurs)
 
----
+
 
 ## 🛠️ Technologies utilisées
 
 - **Frontend :** HTML, CSS, JavaScript  
 - **Hébergement :** GitHub Pages  
 
----
 
 ## 📂 Installation et utilisation
 
