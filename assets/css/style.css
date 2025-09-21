@@ -49,6 +49,69 @@ h2::after {
    text-decoration: none;
    color: #a85df5;
 }
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.hamburger {
+  display: none;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Responsive : petit écran */
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none; /* cacher le menu */
+    flex-direction: column;
+    width: 100%;
+  background-color: rgba(16,16,32,0.95); /* noir très foncé semi-transparent */  }
+
+  .nav-links.active {
+    display: flex; /* afficher le menu quand actif */
+  }
+  /* Animation du menu mobile */
+.nav-links {
+  transition: max-height 0.4s ease-in-out, opacity 0.4s ease-in-out;
+  overflow: hidden;
+  max-height: 0;   /* menu caché par défaut */
+  opacity: 0;
+}
+
+.nav-links.active {
+  max-height: 500px; /* assez grand pour contenir tous les liens */
+  opacity: 1;
+}
+
+
+  .hamburger {
+    display: block; /* afficher le hamburger */
+  }
+
+  .nav-links li a {
+    padding: 15px;
+    text-align: center;
+  }
+}
+
 
 .nav-links { list-style: none; display: flex; gap: 1.5rem; }
 .nav-links a {
